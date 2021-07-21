@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Question extends StatelessWidget {
-  // const ({ Key? key }) : super(key: key);
 
   final String questiontext;
   Question(this.questiontext);
-
-// var questions = [
-//       'what is your favorite color',
-//       'what\'s your fav animal',
-//     ];
 
   @override
   Widget build(BuildContext context) {
